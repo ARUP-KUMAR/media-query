@@ -1,0 +1,141 @@
+*{
+ margin: 0px;
+ padding: 0px;
+
+}
+.header-container{
+    	 background-color:#80808052;
+}
+.logo{
+	 padding: 1%;
+	 font-size: 3vw;
+	 margin-left: 30px;
+}
+
+.navbar-container{
+	display: flex;
+	 
+	background-color: tomato;
+
+}
+
+.navbar{
+	text-align: center;
+	padding: 1%;
+   
+}
+.navbar ul{
+	list-style-type: none;
+}
+.navbar ul li{
+	display: inline-block;
+	padding: 10px;
+	margin-right: 8px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 23px;
+	font-weight: bolder;
+}
+.navbar ul li:hover{
+	background-color: black;
+}
+.img{
+	background-image: url(3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+
+.img h2{
+	color: white;
+	padding: 1%;
+    font-size: 35px;
+
+}
+ 
+.text-container{ 
+	align-items: center;
+}
+.text{
+	flex: 2;
+	font-size: 20px;
+	padding: 5%;
+	font-size: 15px;
+}
+.navbar-right{
+	flex: 1;
+	font-size: 15px;
+
+	background-color: tomato;
+}
+.navbar-right ul{
+	list-style-type: none;
+}
+.navbar-right ul li{
+	 
+	padding: 10px;
+	margin-right: 8px;
+}
+.navbar-right ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 23px;
+	font-weight: bolder;
+}
+.navbar-right ul li:hover{
+	background-color: black;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+   .header-container{
+    background-color: pink;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 700px) {
+   .logo{
+   font-size: 5vw;
+  }
+}
+@media screen and (max-width: 700px){
+   .img h2{
+   	color: white;
+   	font-size: 4vw;
+   }
+}
+
+@media screen and (max-width: 700px){
+   .text{
+   	background-color: orange;
+   	color: white;
+   	font-size: 4vw;
+   }
+}
+@media screen and (max-width: 700px){
+   .text-container{
+   	background-color: gray;
+   	color: white;
+   	font-size: 4vw;
+   }
+}
+
+@media screen and (max-width: 700px){
+   .navbar-right{
+   	background-color: gray;
+   	color: white;
+   	font-size: 4vw;
+   }
+}
+@media screen and (min-width: 700px){
+   .text-container{
+	display: flex; 
+}
+}
